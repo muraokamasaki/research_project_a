@@ -2,6 +2,8 @@ import sys
 
 import redis
 
+# Contains functions that stores the mapping from document IDs to URLs (originally in a text document) in redis.
+# The flask application, however, continues to use the mapping from the text document and not redis.
 
 URL_DOCID_PATH = 'ClueWeb12_B13_DocID_To_URL.txt'  # Change this path as necessary.
 
