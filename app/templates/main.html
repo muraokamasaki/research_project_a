@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+<div>
+	<div class="jumbotron">
+		<h1>Search</h1>
+		<hr>
+		<div class="input-group input-group-lg">
+			<form method="get" action="{{ url_for('search') }}" autocomplete="off">
+				{{ form.q(class='form-control', size=40, placeholder=form.q.label.text) }}
+			</form>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
