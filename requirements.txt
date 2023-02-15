@@ -7,5 +7,5 @@ pyjnius==1.2.0
 pyserini==0.6.0.0
 redis==3.3.11
 soupsieve==1.9.5
-Werkzeug==0.16.0
+Werkzeug==2.2.3
 WTForms==2.2.1
